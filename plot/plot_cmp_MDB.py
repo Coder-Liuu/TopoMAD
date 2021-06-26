@@ -28,7 +28,7 @@ plt.title("MDB dataset")
 plt.ylabel("AP Score")
 plt.xlabel("Epoch")
 
-plt.legend()
+plt.xticks(X+bar_width/2, tick_label)
 plt.tight_layout()
 
 plt.savefig("effect-cmp-MDB.png",dpi=150)
