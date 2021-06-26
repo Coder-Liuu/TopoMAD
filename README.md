@@ -4,7 +4,18 @@
 > 论文来源 | TNNLS (B) 2020  
 > 数据链接 | https://github.com/QAZASDEDC/TopoMAD  
 
-本项目并应该算是基本复现出了论文的效果，论文在MDB数据集中，AP值达到了41.5，本文模型复现效果达到了47.0，`What?`，这么高
+本项目并应该算是基本复现出了论文的效果，论文在MDB数据集中，AP值达到了41.5，也能达到40+。
+
+MDB数据集复现效果图:
+
+![MDB复现效果](./plot/effect-MDB.png)
+
+
+MDB数据集上的复现代码为： torch-topomad-MDB.ipynb 文件
+
+MDB数据集上的LOF,OCSVM的对比实现的代码为： cmp-MDB.ipynb 文件
+
+
 
 
 项目Kaggle代码: https://www.kaggle.com/qq2471001205/torch-topomad
